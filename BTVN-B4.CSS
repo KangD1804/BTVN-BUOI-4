@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    width: 400px;
+    height: 590px;
+}
+
+#header{
+    background-color: #FFE4E1;
+    color: #800000;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 10px 10px 0px;
+    padding: 15px 30px 15px 20px;
+    border-color: #C8827F;
+    border-style: double none;
+    border-width: 3px;
+}
+
+#require>h3, #require>p{
+    padding: 15px 0px;
+}
+
+.week{
+    background-color: #E6E6FA;
+    border: 3px solid #0000FF;
+    margin: 10px 15px;
+    list-style: inside;
+    padding-left: 15px;
+    width: 335px;
+    height: 150px;
+    font-size: smaller;
+}
+
+.week1{
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+
+.time>h4{
+    color: #0000FF;
+    font-weight: 200;
+    padding: 20px 33px 0 5px ;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+li span{
+    position: relative;
+    left: -10px;
+}
+ 
+div.lists{
+    margin-left: 20px;
+}
+
+.red{
+    color: red;
+}
+
